@@ -4,8 +4,7 @@
 
 ## Project Description
 
-This is the first of a bunch of portfolio projects I'm going to sprint through. This
-project is just a simple to-do list app with local storage.
+This is an empty node project template using Express, Typescript, and Jest. Clone for new Express projects.
 
 ## Contributors
 
