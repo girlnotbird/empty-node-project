@@ -8,8 +8,8 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "test": "node --no-warnings --loader ts-node/esm node_modules/.bin/jest",
-    "dev": "PORT=3000; HOSTNAME='0.0.0.0'; NODE_ENV='development'; node --no-warnings --enable-source-maps --loader ts-node/esm src/index.ts",
-    "dev:debug": "PORT=3000; HOSTNAME='0.0.0.0'; NODE_ENV='debug'; node --no-warnings --enable-source-maps --loader ts-node/esm src/index.ts",
+    "dev": "PORT=3000 HOSTNAME='0.0.0.0' NODE_ENV='development' node --no-warnings --enable-source-maps --loader ts-node/esm src/index.ts",
+    "dev:debug": "PORT=3000 HOSTNAME='0.0.0.0' NODE_ENV='debug' node --no-warnings --enable-source-maps --loader ts-node/esm src/index.ts",
     "dev:watch": "nodemon --watch src/ -e ts --exec \"npm run dev\""
   },
   "author": "Jessie McCollum",
